@@ -30,7 +30,7 @@
                                 <ul class="main-nav">
                                         <li class="active"><a href="./index.html"> HOME</a></li>
                                         <li><a href="./news.html"> All NEWS</a></li>
-                                        
+                                        <li><a href="./contact.html"> CONTACT</a></li>
                                         <li><a href="./login.html"> LOGIN</a></li>
                                        
                                 </ul>
@@ -43,44 +43,29 @@
                 
                 </div>  
         </header>
-        <div class="side-pic">
-                        <img src ="img/DevilMayCry.jpg" alt="pic">
+        <form action="action_page.php">
+                <div class="imgcontainer">
+                  <img src="img/avatar.jpg" alt="Avatar" class="avatar">
                 </div>
-        
-
-        <div class="wrapper">
-                <article class="img-info">
-        
-                        
-
-                        <h3>Great Chance to Save Big on Xbox Live Gold</h3>
-                        <p>37 minutes ago - There are some great chances to save on Xbox Live right now, and you can get 1 month of Game Pass for just a buck if you're a new subscriber. Read More »</p>
-                        
-                        <h3>Battlefield 5: Firestorm - What You Need to Know About the Battle Royale Mode</h3>
-                        <p>1 hour 55 minutes ago - We've played (and won!) the new Battrlefield mode - here's what's in store. Read More »</p>
-                        
-                        <h3>These VPNs Let You Watch American Netflix and American Amazon Prime Video in the UK</h3>
-                        <p>2 hours 11 minutes ago - Take a look at what IGN think are the best VPNs to use to access another regions content on Netflix. Read More »</p>
-
-                        <h3>Epic Store Boss Says Metro Exodus' Sales Prove It's About the Games, Not the Platform</h3>
-                        <p>2 hours 15 minutes ago - Despite angry Steam users review bombing the series, Metro Exodus sold 2.5 times more than Last Light on Steam. Read More »</p>
-                        
-                        <h3>Xbox One S All-Digital Details Apparently Leaked</h3>
-                        <p>3 hours 7 minutes ago - Possible bundled games, hard drive size and release date mentioned in leak. Read More »</p>
-
-                       
-
-                </article>
-
-       
-                
-                
-                <footer class= "footer">
-
-                </footer>
-
-        </div>
-       
+              
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
 
        
 
